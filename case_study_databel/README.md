@@ -10,6 +10,8 @@ The entire analysis was conducted using Microsoft Power BI, from data cleaning a
 
 Below is a screenshot of the main overview page of the dashboard.
 
+![Dashboard Overview](overview.png)
+
 
 
 ## Key Findings
