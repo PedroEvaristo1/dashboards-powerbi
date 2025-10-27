@@ -1,6 +1,6 @@
 ## How to Download These Projects
 
-**Important:** These projects have two known issues. Please follow these steps exactly.
+**Important:** These projects have a few special requirements. Please follow these steps exactly.
 
 ---
 
@@ -29,4 +29,23 @@ If you try to unzip it in your `Downloads` or `Documents` folder, you will likel
 2.  Move it directly to your **`C:\`** drive.
 3.  **Right-click** the file and "Extract All..." from there.
 
-This will create a short path like `C:\dashboards-powerbi-main\`, which will work correctly.
+This will create a short, working path like `C:\dashboards-powerbi-main\`.
+
+---
+
+## What is a .pbip Project?
+
+A **`.pbip` (Power BI Project)** file is not like a normal `.pbix` file. Instead of being one single file, it's a **folder structure** that separates the report, the data model, and other settings into individual text-based files.
+
+This format is used for version control (like Git) because it allows developers to track specific changes to measures or visuals.
+
+---
+
+## How to Open the Projects
+
+Once you have unzipped the main `dashboards-powerbi-main` folder:
+
+1.  Open the folder (e.g., `C:\dashboards-powerbi-main\`).
+2.  You will see the folders for the different projects (like `case_study_databel` or `ThreadsLtd_dashboard`). Open the one you want to view.
+3.  Inside, you will see several items, including a `.Report` folder, a `.SemanticModel` folder, and a file ending in **`.pbip`**.
+4.  To open the project, **double-click the `.pbip` file**. This file tells Power BI Desktop how to load all the other parts of the project.
